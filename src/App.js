@@ -1,9 +1,10 @@
 import React from 'react';
-import Row from './Row.jsx';
+import Row from './components/Row';
+import requests from './axios/requests';
+import Banner from './components/Banner';
+import Navbar from './components/Navbar';
 import './App.css';
-import requests from './requests';
-import Banner from './Banner.jsx';
-import Navbar from './Navbar.jsx';
+
 function App() {
   return (
     <div className="App">
